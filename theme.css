@@ -93,6 +93,9 @@ settings:
           label: Storm (VGA)
           value: w95-scheme-storm
         -
+          label: Trans
+          value: w95-scheme-trans
+        -
           label: Teal (VGA)
           value: w95-scheme-teal
         -
@@ -129,6 +132,20 @@ settings:
 
   --border-highlight: #e6d6de;
   --border-shadow: #8a525c;
+
+  --scrollbar-track: #ead8df;
+  --scrollbar-thumb: #e6c6cc;
+
+  --nav-item-background-active: #9c5d6a;
+  --interactive-accent: #9c5d6a;
+}
+.theme-dark.w95-scheme-trans,
+.theme-light.w95-scheme-trans {
+  --background-primary: #f58ea3;
+  --background-secondary: #a9e8eb;
+  
+  --border-highlight: #e3e3e3;
+  --border-shadow: #000000;
 
   --scrollbar-track: #ead8df;
   --scrollbar-thumb: #e6c6cc;
